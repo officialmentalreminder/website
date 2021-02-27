@@ -66,13 +66,23 @@ nav {
     width: 100vw;
     padding-top: 2vw;
     padding-bottom: 1vw;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
 
+.home-link { 
+    text-decoration: none;
+    font-family: var(--main-font);
+    color: black;
+    font-size: 1.25vw;
+    padding-left: 13vw;
+    font-weight: 600;
 }
 
 .links { 
     float: right;
     padding-right: 13vw;
-    
 }
 
 .links a { 
@@ -218,4 +228,19 @@ footer {
 
 footer p { 
     font-size: .75vw;
+}
+
+
+/* --- Content pages --- */
+
+.content-wrapper { 
+    margin: 10rem;
+    padding-bottom: 20rem;
+}
+
+.content-wrapper h2 { 
+    font-size: 3rem;
+    margin-left: 0;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
