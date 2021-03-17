@@ -23,6 +23,31 @@ h1, h2, h3, h4, h5, p {
     font-family: var(--main-font);
 }
 
+.content-wrapper p { 
+    font-size: 1.25rem;
+    line-height: 1.95rem;
+}
+
+.content-wrapper h1 { 
+    font-size: 4.8rem;
+    line-height: 5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.content-wrapper h2 { 
+    font-size: 3rem;
+    line-height: 3.75rem;
+    font-weight: 500;
+}
+
+.content-wrapper h3 { 
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+
 p {
     font-weight: 300;
     font-size: 1vw;
@@ -235,6 +260,8 @@ footer p {
 
 .content-wrapper { 
     margin: 10rem;
+    margin-left: 13vw;
+    margin-right: 13vw;
     padding-bottom: 20rem;
 }
 
